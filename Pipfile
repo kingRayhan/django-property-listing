@@ -8,6 +8,9 @@ autopep8 = "*"
 
 [packages]
 django = "*"
+django-mongodb-engine = "*"
+mysqlclient = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

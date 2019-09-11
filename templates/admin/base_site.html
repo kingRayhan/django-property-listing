@@ -1,0 +1,26 @@
+{% extends 'admin/base.html' %}
+
+{% block extrastyle %}
+<style>
+    #header,
+    .module h2, .module caption, .inline-group h2,
+    .selector-chosen h2,
+    .button, input[type=submit], input[type=button], .submit-row input, a.button,
+    .button.default, input[type=submit].default, .submit-row input.default,
+    div.breadcrumbs
+    {
+        background-color: #30caa0;
+    }
+    a:link, a:visited{
+        color: #30caa0;
+    }
+</style>
+{% endblock extrastyle %}
+
+
+{% block branding %}
+<h1>
+    <img src="/static/img/logo.png" alt="Logo" height="50" width="80">
+    Admin Area
+</h1>
+{% endblock branding %}
